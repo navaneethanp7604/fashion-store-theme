@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>COLLECTION</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!--navbar-section-->
+    <nav class="navbar">
+        <h1>Fine style</h1>
+        <div class="navbar-links">
+            <p class="navbar-link"><a href="index.html">Home</a></p>
+            <p class="navbar-link"><a href="collection.html">Collections</a></p>
+            <p class="navbar-link"><a href="contact.html">Contact</a></p>
+        </div>
+        <div class="navbar-menu-toggle" onclick="shownavbar()">
+            <i class="fa-solid fa-bars"></i>
+        </div>
+    </nav>
+    <!--side-navbar-section-->
+    <div class="side-navbar">
+        <p style="text-align: right;" onclick="closenavbar()">
+            <i class="fa-solid fa-xmark"></i>
+        </p>
+        <div class="side-navbar-links"></div>
+        <p class="side-navbar-link"><a href="index.html">Home</a></p>
+        <p class="side-navbar-link"><a href="collection.html">Collections</a></p>
+        <p class="side-navbar-link"><a href="contact.html">Contact</a></p>
+    </div>
+    
+    <!--colections-->
+
+    <div class="product-section">
+        <form class="product-search">
+            <input type="text" id="search" placeholder="Search">
+            <i class="fa-solid fa-magnifying-glass"></i>
+        </form>
+        <div class="products" id="products">
+            <div class="products-box">
+                <img src="images/dress-9.jpg" style="width: 200px; height: 200px;">
+                <p>HOODIE</p>
+            </div>
+            <div class="products-box">
+                <img src="images/dress-10.jpg" style="width: 200px; height: 200px;">
+                <p>BEAR COURT</p>
+            </div>
+            <div class="products-box">
+                <img src="images/dress-11.jpg" style="width: 200px; height: 200px;">
+                <p>FLOWER FRAUG</p>
+            </div>
+            <div class="products-box">
+                <img src="images/dress-12.jpg" style="width: 200px; height: 200px;">
+                <p>GREEN COURT</p>
+            </div>
+            <div class="products-box">
+                <img src="images/dress-13.jpg" style="width: 200px; height: 200px;">
+                <p>PAAL DABBA FASHION</p>
+            </div>
+            <div class="products-box">
+                <img src="images/dress-14.jpg" style="width: 200px; height: 200px;">
+                <p>WHITE T-SHAIRT</p>
+            </div>
+            <div class="products-box">
+                <img src="images/dress-15.jpg" style="width: 200px; height: 200px;">
+                <p>BROWN OVER COURT</p>
+            </div>
+            <div class="products-box">
+                <img src="images/dress-16.jpg" style="width: 200px; height: 200px;">
+                <p>COURT SUIT</p>
+            </div>
+            <div class="products-box">
+                <img src="images/dress-17.jpg" style="width: 200px; height: 200px;">
+                <p>WESTERN WEAR</p>
+            </div>
+            <div class="products-box">
+                <img src="images/dress-18.jpg" style="width: 200px; height: 200px;">
+                <p>PINK BABY FRAUG</p>
+            </div>
+            <div class="products-box">
+                <img src="images/dress-19.jpg" style="width: 200px; height: 200px;">
+                <p>GREEN FRAUG</p>
+            </div>
+            <div class="products-box">
+                <img src="images/dress-20.jpg" style="width: 200px; height: 200px;">
+                <p>BLUE BABY FRAUG</p>
+            </div>
+        </div>
+    </div>
+
+    <!--footer-section-->
+    <div class="footer">
+        <div class="footer-container">
+            <div class="footer-container-box">
+                <h2>FASHION</h2>
+                <p>The standard chunk of Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                <i class="fa-brands fa-square-instagram"></i>
+                <i class="fa-brands fa-youtube"></i>
+                <i class="fa-brands fa-facebook"></i>
+                <p>@ 2024 Fine style.com</p>
+            </div>
+        </div>
+    </div>
+
+    <script src="collection.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
